@@ -11,4 +11,7 @@ The 6 hand events mimic the grasp-and-lift movement in sequential order:
 6. BothReleased
 
 ## Additional consideration
-The application of this algorithm is real-time brain-machine interface (BCI), which requires on-line computing. This also adds a time-series constraint where prediction can't be based on future data.
+The application of this algorithm is real-time brain-machine interface (BCI), which requires on-line computing. This also adds a time-series constraint where prediction can't be based on future data. <br>
+
+The spatial relationship between the electrode locations is shown in this diagram:
+![eeg_electrode_numbering](https://user-images.githubusercontent.com/30357662/42740941-8968cc94-887b-11e8-8ceb-a9cfc33075f7.jpg)
